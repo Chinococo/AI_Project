@@ -1,0 +1,6 @@
+{
+  "name": "AI & ML Interactive Learning Platform",
+  "description": "Interactive web app covering AI History, Linear Regression, CNN Image Classification, YOLO Detection (Cars & Anime), and Random Forest Decision Trees.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
