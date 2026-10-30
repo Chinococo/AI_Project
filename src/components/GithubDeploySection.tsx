@@ -36,12 +36,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          # Do not enable cache: 'npm' if package-lock.json is not committed
 
       - name: Install dependencies
         run: npm install --no-audit --no-fund
-        run: npm run build
 
+      - name: Build
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
