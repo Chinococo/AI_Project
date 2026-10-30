@@ -36,7 +36,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
+          # cache: 'npm' removed to avoid missing lock file error
       - name: Install dependencies
         run: npm install --no-audit --no-fund
 
