@@ -38,7 +38,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --no-audit --no-fund
       - name: Build project
         run: npm run build
 
